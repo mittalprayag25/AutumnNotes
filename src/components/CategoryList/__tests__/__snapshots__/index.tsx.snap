@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category List with no category should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#eeeaaa",
+      "marginVertical": 8,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginLeft": 8,
+      }
+    }
+  >
+    Misc
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "category": "category",
+          "description": "description",
+          "title": "title",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={Object {}}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "backgroundColor": "#eeeee4",
+                "borderRadius": 8,
+                "height": 128,
+                "margin": 8,
+                "opacity": 1,
+                "padding": 8,
+                "width": "45%",
+              }
+            }
+            testID="note-detail-item-title"
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 16,
+                }
+              }
+            >
+              title
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Category List with some category should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#eeeaaa",
+      "marginVertical": 8,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginLeft": 8,
+      }
+    }
+  >
+    category
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "category": "category",
+          "description": "description",
+          "title": "title",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={Object {}}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "backgroundColor": "#eeeee4",
+                "borderRadius": 8,
+                "height": 128,
+                "margin": 8,
+                "opacity": 1,
+                "padding": 8,
+                "width": "45%",
+              }
+            }
+            testID="note-detail-item-title"
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 16,
+                }
+              }
+            >
+              title
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

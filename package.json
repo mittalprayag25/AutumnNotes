@@ -1,0 +1,74 @@
+{
+  "name": "AutumnNotes",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@testing-library/react-native": "~7.2.0",
+    "redux-mock-store": "~1.5.4",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "~0.1.11",
+    "@types/redux-mock-store": "~1.0.3",
+    "jetifier": "~2.0.0",
+    "react": "17.0.2",
+    "react-native": "0.67.4",
+    "react-native-dropdown-picker": "^5.4.0",
+    "react-native-gesture-handler": "~1.10.3",
+    "react-native-linear-gradient": "~2.5.6",
+    "react-native-reanimated": "~2.2.3",
+    "react-native-safe-area-context": "~3.3.2",
+    "react-native-screens": "~3.8.0",
+    "react-navigation": "~4.4.4",
+    "react-navigation-stack": "~2.10.4",
+    "react-redux": "~7.2.4",
+    "redux": "~4.1.0",
+    "redux-actions": "~2.6.5",
+    "redux-devtools-extension": "~2.13.9",
+    "redux-saga": "~1.1.3",
+    "redux-saga-test-plan": "~4.0.3"
+  },
+  "devDependencies": {
+    "@react-native-firebase/analytics": "14.1.0",
+    "@react-native-firebase/app": "14.1.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "lodash": "^4.17.14",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "^17.0.2",
+    "react-native-multiple-screens": "0.1.0",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-typescript": "7.16.7",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "^27.0.1",
+    "@types/react-native": "^0.64.13",
+    "@types/redux-actions": "2.6.2",
+    "babel-jest": "^27.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "fs-extra": "7.0.0",
+    "jest": "^27.1.0",
+    "jest-bamboo-formatter": "1.0.1",
+    "js-yaml": "3.2.7",
+    "jshint": "^2.10.2",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-fast-image": "8.3.4",
+    "typescript": "^4.4.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "testTimeout": 30000,
+    "transformIgnorePatterns": [
+      "node_modules/(?!(@?react-native|@?react-navigation.*|@app*.))"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest.setup.js",
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Category should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#abc",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="create-category-back"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/left.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "left": "40%",
+          "position": "relative",
+        }
+      }
+    >
+      Create category
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="create-category-save"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/save.png",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderColor": "#abc",
+          "borderWidth": 2,
+          "height": "20%",
+          "marginHorizontal": 16,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        autoFocus={true}
+        multiline={true}
+        onChangeText={[Function]}
+        selectionColor="#000"
+        testID="create-category-input-text"
+        value=""
+      />
+    </View>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "label": "cat1",
+            "value": "cat1",
+          },
+          Object {
+            "label": "cat2",
+            "value": "cat2",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "marginHorizontal": 16,
+        }
+      }
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#eeeee4",
+                  "borderRadius": 10,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "margin": 8,
+                  "paddingHorizontal": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "margin": 10,
+                    "padding": 5,
+                  }
+                }
+              >
+                cat1
+              </Text>
+              <Text
+                onPress={[Function]}
+                testID="create-category-remove-cat1"
+              >
+                x
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#eeeee4",
+                  "borderRadius": 10,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "margin": 8,
+                  "paddingHorizontal": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "margin": 10,
+                    "padding": 5,
+                  }
+                }
+              >
+                cat2
+              </Text>
+              <Text
+                onPress={[Function]}
+                testID="create-category-remove-cat2"
+              >
+                x
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

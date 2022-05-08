@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Home should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#abc",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "left": "40%",
+          "position": "relative",
+        }
+      }
+    >
+      Notes
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="test-add"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/add.png",
+            }
+          }
+        />
+        <Text>
+          Notes
+        </Text>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "marginLeft": 10,
+          }
+        }
+        testID="categories-text"
+      >
+        Categories
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    collapsable={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeaaa",
+            "marginVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginLeft": 8,
+            }
+          }
+        >
+          some category
+        </Text>
+        <RCTScrollView
+          data={
+            Array [
+              Object {
+                "category": "some category",
+                "description": "some description",
+                "value": "some value",
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={Object {}}
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "backgroundColor": "#eeeee4",
+                      "borderRadius": 8,
+                      "height": 128,
+                      "margin": 8,
+                      "opacity": 1,
+                      "padding": 8,
+                      "width": "45%",
+                    }
+                  }
+                  testID="note-detail-item-undefined"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    undefined
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeaaa",
+            "marginVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginLeft": 8,
+            }
+          }
+        >
+          some category 2
+        </Text>
+        <RCTScrollView
+          data={
+            Array [
+              Object {
+                "category": "some category 2",
+                "description": "some description 2",
+                "value": "some value 2",
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={Object {}}
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "backgroundColor": "#eeeee4",
+                      "borderRadius": 8,
+                      "height": 128,
+                      "margin": 8,
+                      "opacity": 1,
+                      "padding": 8,
+                      "width": "45%",
+                    }
+                  }
+                  testID="note-detail-item-undefined"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    undefined
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Test Home when all Notes is null should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#abc",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "left": "40%",
+          "position": "relative",
+        }
+      }
+    >
+      Notes
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="test-add"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/add.png",
+            }
+          }
+        />
+        <Text>
+          Notes
+        </Text>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "marginLeft": 10,
+          }
+        }
+        testID="categories-text"
+      >
+        Categories
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "justifyContent": "center",
+      }
+    }
+    testID="no-record-found"
+  >
+    No Records Found
+  </Text>
+</View>
+`;
+
+exports[`Test Home with no notes should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#abc",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "left": "40%",
+          "position": "relative",
+        }
+      }
+    >
+      Notes
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="test-add"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/add.png",
+            }
+          }
+        />
+        <Text>
+          Notes
+        </Text>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "marginLeft": 10,
+          }
+        }
+        testID="categories-text"
+      >
+        Categories
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "justifyContent": "center",
+      }
+    }
+    testID="no-record-found"
+  >
+    No Records Found
+  </Text>
+</View>
+`;
