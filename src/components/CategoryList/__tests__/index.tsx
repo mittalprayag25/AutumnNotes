@@ -1,12 +1,7 @@
 import {act, fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
-import * as reactRedux from 'react-redux';
-import {Provider} from 'react-redux';
 
-import {
-  createMockStore,
-  mockNavigationWithParams,
-} from '../../../__mocks__/index';
+import {mockNavigationWithParams} from '../../../__mocks__/index';
 import CategoryList from '../index';
 import initialState from './../../../redux/store/initialState';
 
@@ -24,9 +19,6 @@ describe('Category List with some category', () => {
     },
   };
 
-  const changeState = {
-    ...initialState,
-  };
   it('should match snapshot', () => {
     const wrapper = render(<CategoryList {...props} />);
     expect(wrapper.toJSON()).toMatchSnapshot();
@@ -45,9 +37,6 @@ describe('Category List with no category', () => {
     },
   };
 
-  const changeState = {
-    ...initialState,
-  };
   it('should match snapshot', () => {
     const wrapper = render(<CategoryList {...props} />);
     expect(wrapper.toJSON()).toMatchSnapshot();

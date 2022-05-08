@@ -24,6 +24,6 @@ Install native dependencies for iOS
 
 ### UX not considered for assignment
 
-### Focus was no showcase of react native redux , unit test case skills
+### Focus was on showcase of react native redux , unit test case skills
 
 ### Functionality is complete
